@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 function Location(props) {
   console.log("props for location here", props)
 

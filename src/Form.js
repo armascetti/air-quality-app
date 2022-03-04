@@ -20,13 +20,13 @@ function Form(props) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input 
-      id="cityName"
-      type= "text"
-      value = {cityName}
-      onChange = {handleChange}
+      <input
+        id="cityName"
+        type="text"
+        value={cityName}
+        onChange={handleChange}
       />
-      <input className="city-info" type= "submit" value="Find City Info" /> 
+      <input className="city-info" type="submit" value="Find City Info" />
       <button className="search-btn" onClick={refreshPage}> Try another search </button>
     </form>
   )

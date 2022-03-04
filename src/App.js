@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const [cityName, setCityName] = useState('');
-  const [cityData, setCityData] = useState ('');
+  const [cityData, setCityData] = useState('');
 
   const handleSubmit = city => {
     setCityName(city)
@@ -28,16 +28,9 @@ function App() {
     <>
       <h1> Find a City Here </h1>
       <Form handleSubmit={handleSubmit} />
-      {cityData.results?.map((city, idx) => (
-        <City
-          key={idx}
-          idx={idx}
-          city={city}
-        />
-      ))}
+      {cityData.results ? <City city={cityData} /> : "Search for a City here"}
     </>
   )
 }
 
 export default App;
-
