@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+  display: flex;
+  background-image: url("https://images.clipartlogo.com/files/istock/previews/9349/93498143-sky-with-clouds-seamless.jpg")
+}
+
+.card-container {
+  margin-top: 30px;
+  border: 1px solid black; 
+  width: 170px; 
+  height: 200px; 
+  font-family: 'Fjalla One', sans-serif;
+  background-color: cornsilk;
+}
+
+.name {
+  font-size: x-large;
+}
+
