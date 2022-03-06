@@ -1,14 +1,15 @@
 import React from 'react';
 
-
-
-function MeasureCard(props) {
-  console.log("Measure data here", props)
+function MeasureCard({ selection, m}) {
+ console.log('selection', selection)
   return (
     <>
-      <div></div>
+      {/* <div>
+        {props.measure.city}
+      </div> */}
     </>
   )
 }
 
 export default MeasureCard
+
