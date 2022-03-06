@@ -28,7 +28,9 @@ function App() {
     <>
       <h1> Find a City Here </h1>
       <Form handleSubmit={handleSubmit} />
-      {cityData.results ? <City city={cityData} /> : "Search for a City here"}
+      {cityData.results ? <City
+        city={cityData}
+      /> : "Search for a City here"}
     </>
   )
 }
