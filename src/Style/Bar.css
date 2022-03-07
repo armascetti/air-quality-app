@@ -1,0 +1,5 @@
+.Bar {
+  display: flex;
+  border-radius: 1px solid black;
+  width: 100px;
+}
